@@ -13,20 +13,25 @@ const cors = require('cors');
 app.use(cors());
 
 // Initialize the main project folder
-app.use(express.static('src/client'));
-
+// app.use(express.static('src/client'));
+app.use(express.static('dist'));
 
 // Designates what port the app will listen to for incoming requests
-const port = 8001;
+const port = 8080;
 app.listen(port, () => {
   // Callback to debug
   console.log(`The server is running on localhost:${port}`)
 });
 
+/*
+// GET request before Webpack
 console.log(__dirname);
+app.get('/', (req, res) => { res.sendFile('/client/views/index.html', { root: __dirname + '/..' })});
+*/
 
+// GET request with Webpack
 app.get('/', (req, res) => {
-  res.sendFile('/client/views/index.html', { root: __dirname + '/..' })
+  res.sendFile('dist/index.html')
 });
 
 // Declare an API key variables

@@ -27,7 +27,7 @@ const handleExplore = (event) => {
   }
 
   // Fetch data from the server
-  fetch('http://localhost:8001/data', {
+  fetch('http://localhost:8080/data', {
     method: 'POST',
     credentials: 'same-origin',
     headers: { 'Content-Type': 'application/json' },
