@@ -5,7 +5,7 @@ const handleClear = () => {
   document.getElementById('destination').value = '';
   document.getElementById('date-start').value = '';
   document.getElementById('date-end').value = '';
-  // console.log(formDestination, startDay, endDay);
+  // console.log(formDestination, startDay, endDay); // for debugging
 
   // Add 'display-none' class from the div container
   document.getElementById('entry-results').classList.add('display-none');
