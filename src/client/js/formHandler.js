@@ -20,6 +20,8 @@ const handleExplore = (event) => {
   console.log(tripDuration); // for debugging
 
   // Check if the startDay later than the endDay OR earlier than present date
+
+  
   if (tripDuration < 0 || new Date(startDay) < new Date()) {
     alert('Sorry, we don\'t offer time travel here.');
     return;
