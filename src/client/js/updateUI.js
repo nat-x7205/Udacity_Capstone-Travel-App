@@ -1,6 +1,6 @@
-const resultsSection = document.getElementById('entry-results');
-
 const handleUI = (webData) => {
+  const resultsSection = document.getElementById('entry-results');
+
   // Remove 'display-none' class from the div container
   resultsSection.classList.remove('display-none');
   
@@ -28,4 +28,4 @@ const handleUI = (webData) => {
 }
 
 export { handleUI };
-window.handleUI = handleUI;
+// window.handleUI = handleUI;

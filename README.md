@@ -37,7 +37,7 @@ The app uses data from [Geonames](http://www.geonames.org/), [Weatherbit](https:
   - Move expired trips to bottom/have their style change so it’s clear it’s expired.
 
 ## License
-The app is free for the personal use.
+The app is free for personal use.
 
 ## Copyright
 Coded by Natalia Petrenko, 2021.
