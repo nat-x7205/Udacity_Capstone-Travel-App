@@ -20,7 +20,7 @@ const handleUI = (webData) => {
   document.getElementById('city-image').alt = `A photo of ${webData.cityName} (${webData.countryName}) from pixabay.com.`;
   
   document.getElementById('wheather-city').innerHTML = `${webData.cityInputName}`;
-  document.getElementById('wheather-date').innerHTML = `${weekdays[now.getDay()]}, ${now.getDate()} ${months[now.getDay()]} ${now.getFullYear()}, ${now.getHours()}:${now.getMinutes()}`;
+  document.getElementById('wheather-date').innerHTML = `${weekdays[now.getDay()-1]}, ${now.getDate()} ${months[now.getMonth()]} ${now.getFullYear()}, ${now.getHours()}:${now.getMinutes()}`;
   document.getElementById('wheather-temp').innerHTML = `${webData.temperature}&deg;C`;
   document.getElementById('wheather-icon').src = `https://www.weatherbit.io/static/img/icons/${webData.iconImg}.png`;
   document.getElementById('wheather-description').innerHTML = `${webData.description.toLowerCase()}`;
