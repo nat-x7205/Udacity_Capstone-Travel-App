@@ -1,0 +1,27 @@
+$footer-text-color: #fff;
+
+footer {
+  padding: 20px;
+  background-color: rgba(68, 34, 68, .8);
+  color: $footer-text-color;
+  font-size: .9rem;
+  line-height: 1.2;
+  text-align: center;
+  // align-self: flex-end;
+
+  a {
+    font-weight: 700;
+    color: $footer-text-color;
+    transition: color 0.1s ease-in-out;
+
+    &:hover {
+      color: #c9c;
+    }
+  }
+
+  p {
+    &:first-child {
+      margin-bottom: .7rem;
+    }
+  }
+}

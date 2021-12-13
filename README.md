@@ -1,4 +1,4 @@
-# Udacity. Capstone: Travel App
+# Capstone project: Travel App
 
 ## Overview
 This is the fifth project of the [Front End Web Developer](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011) nanodegree program.

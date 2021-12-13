@@ -1,0 +1,103 @@
+#entry-results {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #663366;
+}
+
+#user-entry-results {
+  font-size: 1.4rem;
+}
+
+#city-image,
+#current-weather {
+  box-sizing: border-box;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, .1);
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#current-weather {
+  background-color: rgba(255, 255, 255, .5);
+  padding: 20px;
+}
+
+#wheather-city {
+  font-size: 2rem;
+  margin-bottom: .6rem;
+}
+
+#wheather-date {
+  font-size: .7rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: .4rem;
+}
+
+#wheather-temp {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+#wheather-description-block {
+  max-width: 100%;
+}
+
+#wheather-icon {
+  display: inline-block;
+  height: 2rem;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#wheather-description {
+  display: inline-block;
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+
+
+/************************************************/
+/*                MEDIA QUERIES                 */
+/************************************************/
+/* Medium Screens (768px – 991px) */
+@media (min-width: 768px) {
+  #current-weather {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      margin: 0 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #wheather-city {
+      margin-bottom: .2rem;
+    }
+
+    #wheather-temp {
+      font-size: 3.5rem;
+    }
+
+    #wheather-icon {
+      height: 2.2rem;
+    }
+  }
+}
+
+
+/************************************************/
+/* Large Screens (≥992px) */
+@media (min-width:992px) {
+  
+   
+}

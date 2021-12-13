@@ -16,49 +16,81 @@
 
 <body>
   <div id="main-container">
-    <div class="blockquote-text">
+    <!-- <div id="blockquote-text" class="">
       <blockquote>
-        &ldquo;I haven&rsquo;t been everywhere but it&rsquo;s on my list.&rdquo;
+        &ldquo;I haven&rsquo;t been everywhere<br/>but it&rsquo;s on my list.&rdquo;
       </blockquote>
       <div class="blockquote-text-cite">
         &mdash;<cite><a href="https://www.youtube.com/watch?v=HRqQDJktNlA&ab_channel=Pitchfork">DJ Koze</a></cite>
       </div>
-    </div>
+    </div> -->
 
-    <h1>Plan your dream trip!</h1>
-    <p>Enter your trip destination and dates when you&rsquo;d like to travel.</p>
-
-    <section id="entry-form">
+    <h1>Plan your dream&nbsp;trip</h1>
+    
+    <section id="entry-form" class="foreground">
+      <p>Enter your trip destination and dates when you&rsquo;d like to travel.</p>
       <div>
         <label for="destination">Trip destination:</label>
         <input id="destination" type="text" value="" placeholder="City name">
       </div>
-      <div>
-        <label for="date-start">Start date:</label>
-        <input id="date-start" type="text" placeholder="MM/DD/YYYY">
-      </div>
-      <div>
-        <label for="date-end">End date:</label>
-        <input id="date-end" type="text" placeholder="MM/DD/YYYY">
+      <div id="dates">
+        <div>
+          <label for="date-start">Trip start date:</label>
+          <input id="date-start" type="text" placeholder="MM/DD/YYYY">
+        </div>
+        <div>
+          <label for="date-end">Trip end date:</label>
+          <input id="date-end" type="text" placeholder="MM/DD/YYYY">
+        </div>
       </div>
       <button id="explore-button">Explore</button>
     </section>
 
-    <section id="entry-results" class="display-none">
+    <section id="entry-results" class="foreground display-none">
       <h2>Excellent choice!</h2>
-      <img id="city-image"/>
-      <div id="user-entry-results"></div>
-      <img id="wheather-icon"/> 
-      <div id="weather"></div>
+      <div id="user-entry-results">You have chosen to travel to <strong>Sydney</strong> (Australia) for <strong>2 days</strong>.</div>
+      <img id="city-image"src="https://pixabay.com/get/g562892ed5a5ecf8ab84e8dcc3e0bc03d7bd3efc810c64a7b3c5eb944920ffceb4ca9844dd5492aba74b0751d7bf3f801_640.jpg"/>
+      <div id="current-weather">
+        <div>
+          <div id="wheather-city"></div>
+          <div id="wheather-date"></div>
+        </div>
+        <div id="wheather-temp"></div>
+        <div>
+          <img id="wheather-icon"/>
+          <div id="wheather-description"></div>
+        </div>
+      </div>
       <button id="clear-results">Clear</button>
     </section>
   </div>
 
+    <!-- Sample results for styling -->
+    <!-- <section id="entry-results" class="foreground">
+      <h2>Excellent choice!</h2>
+      <div id="user-entry-results">You have chosen to travel to <strong>Sydney</strong> (Australia) for <strong>2 days</strong>.</div>
+      <img id="city-image"src="https://pixabay.com/get/g562892ed5a5ecf8ab84e8dcc3e0bc03d7bd3efc810c64a7b3c5eb944920ffceb4ca9844dd5492aba74b0751d7bf3f801_640.jpg"/>
+      <div id="current-weather">
+        <div>
+          <div id="wheather-city">Sydney</div>
+          <div id="wheather-date">Fri, 7 Dec 2021, 7:25pm</div>
+        </div>
+        <div id="wheather-temp">20°C</div>
+        <div>
+          <img id="wheather-icon"src="https://www.weatherbit.io/static/img/icons/c02d.png"/>
+          <div id="wheather-description">Scattered clouds</div>
+        </div>
+      </div>
+      <button id="clear-results">Clear</button>
+    </section>
+  </div> -->
+
   <footer>
-    <p>Some credentials</p>
+    <p>The beautiful background photo by <a href="https://www.pexels.com/photo/hot-air-ballons-in-the-sky-2325446/">Francesco Ungaro</a> from <a href="https://www.pexels.com/">Pexels</a></p>
     <p>&copy Coded by Natalia Petrenko, 2021</p>
   </footer>
 
+  <!-- Photo by Francesco Ungaro from Pexels -->
   <!-- <script src="../index.js" type="text/javascript"></script> -->
 </body>
 </html>
