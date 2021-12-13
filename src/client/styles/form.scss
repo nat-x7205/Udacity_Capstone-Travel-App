@@ -38,7 +38,12 @@ input {
   font-size: 1rem;
   text-align: center;
   // align-items: center;
-  color:#310e31;
+  // color:#310e31;
+  color:#330033;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, .8);
+  }
 
   &::placeholder {
     font-family:  'Lato', sans-serif;
