@@ -1,8 +1,8 @@
 # Capstone project: Travel App
 
 ## Overview
-This is the fifth project of the [Front End Web Developer](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011) nanodegree program.<br />
-![The app screenshot](src/client/images/Travel-app_Screenshot.jpg?raw=true "The app screenshot")<br />
+This is the fifth project of the [Front End Web Developer](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011) nanodegree program.<br /><br />
+![The app screenshot](src/client/images/Travel-app_Screenshot.jpg?raw=true "The app screenshot")<br /><br />
 The project includes a form where the user enters the location they are traveling to, as well as the start and end dates of the trip. After clicking the 'Explore' button, the app sends a request to the Geonames API to obtain the location's coordinates, which are used to pull the location's wheather information from the Wheatherbit API. For the final touch, an image of the location entered will be displayed; for this, the app uses the Pixabay API.
 
 ## References
