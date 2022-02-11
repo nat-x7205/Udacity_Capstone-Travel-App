@@ -6,7 +6,7 @@ This is the fifth project of the [Front End Web Developer](https://www.udacity.c
 The project includes a form where the user enters the location they are traveling to, as well as the start and end dates of the trip. After clicking the 'Explore' button, the app sends a request to the Geonames API to obtain the location's coordinates, which are used to pull the location's wheather information from the Wheatherbit API. For the final touch, an image of the location entered will be displayed; for this, the app uses the Pixabay API.
 
 ## References
-The app uses data from [Geonames](http://www.geonames.org/), [Weatherbit](https://www.weatherbit.io/), and [Pixabay](https://pixabay.com/).<br /><br />
+The app uses data from [Geonames](http://www.geonames.org/), [Weatherbit](https://www.weatherbit.io/), and [Pixabay](https://pixabay.com/).<br />
 The background image by [Francesco Ungaro](https://www.pexels.com/photo/hot-air-ballons-in-the-sky-2325446/) from [Pexels](https://www.pexels.com/).
    
 
