@@ -41,6 +41,9 @@ const handleExplore = (event) => {
     // Update UI
     Client.handleUI(res);
   })
+  .then(() => {
+    document.getElementById('user-entry-results').scrollIntoView({behavior: "smooth"});
+  })
 }
 
 // Event listener for the 'Explore' button
