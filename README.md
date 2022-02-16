@@ -24,6 +24,9 @@ The [demo version]() of the app.
 - Jest
 - Workbox Service Worker
 
+## Prerequisites
+Node 16.13.0
+
 ## Get started
 1. Fork the repo and clone the forked repo to you local computer.
 2. In the Terminal window navigate to the local app directory and run `npm install` command to install all dependencies from `package.json` file (make sure you have node installed).
