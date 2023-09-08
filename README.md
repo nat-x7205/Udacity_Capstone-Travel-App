@@ -11,7 +11,7 @@ The project includes a form where the user enters the location they are travelin
 - [Lato](https://fonts.google.com/specimen/Lato) has been used as this project font, and was sourced from [Goggle Fonts](https://fonts.google.com/). 
 
 ## Demo
-The [demo version]() of the app.
+The [demo version](http://thequickwebsite.com:8081/) of the Travel App project.
 
 ## Used technologies
 - HTML
